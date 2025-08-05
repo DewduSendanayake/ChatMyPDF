@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+
+# IDE/editor configs
+.idea/
+*.iml
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Uploaded or built artifacts
+uploaded.*
+CV.*          # if that’s a personal resume you don’t want public
+*.pdf         # ignore large PDFs except example.pdf
+models/       # ignore your GGUF model folder entirely
+
+# OS/other
+.DS_Store
+Thumbs.db
