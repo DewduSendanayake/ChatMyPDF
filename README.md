@@ -1,6 +1,6 @@
-# Project: **ChatMyPDF** — A Local, Private PDF Chatbot with RAG & LLM
+# ChatMyPDF - PDF Chatbot with RAG & LLM 🤖
 
-ChatMyPDF is a completely free, local-first chatbot application that lets you interact with your PDFs using natural language. It leverages Retrieval-Augmented Generation (RAG), FAISS vector indexing, and a locally running Large Language Model (Mistral 7B via llama.cpp). Built with LangChain and Streamlit.
+ChatMyPDF is a completely free, local-first chatbot application that lets you interact with your PDFs using natural language. It uses Retrieval-Augmented Generation (RAG), FAISS vector indexing, and a locally running Large Language Model (Mistral 7B via llama.cpp). Built with LangChain and Streamlit.
 
 ---
 
@@ -37,60 +37,6 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 4. **FAISS Indexing**: Store vectors for fast retrieval.
 5. **User Query**: Embed question and retrieve top-k relevant chunks.
 6. **LLM Response**: Feed context + query to Mistral 7B and return answer.
-
----
-
-## 🛠️ Installation
-
-> ⚠️ Works completely offline after setup. No OpenAI or external APIs needed.
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/chatmypdf.git
-cd chatmypdf
-```
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Download Mistral Model
-
-Place a quantized GGUF model like `Mistral-7B-Instruct-v0.1.Q4_K_M.gguf` inside the `/models` folder. [Download from Hugging Face](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF)
-
----
-
-## 💻 Run the App
-
-```bash
-streamlit run app.py
-```
-
-Then open `http://localhost:8501` in your browser.
-
----
-
-## 📁 Folder Structure
-
-```
-chatmypdf/
-├── app.py                # Streamlit UI
-├── main.py               # Backend core logic
-├── models/               # Local GGUF model goes here
-├── example.pdf           # Sample PDF
-├── requirements.txt      # All dependencies
-└── README.md
-```
 
 ---
 
