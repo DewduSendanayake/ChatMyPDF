@@ -4,7 +4,7 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 
 
 <p align="center">
-  <img src="ChatMyPDF.png" alt="ChatMyPDF.png" width="500"/>
+  <img src="ChatMyPDF.png" alt="ChatMyPDF.png" width="400"/>
 </p>
 
 
