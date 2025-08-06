@@ -2,8 +2,9 @@
 
 ChatMyPDF is a completely free, local-first chatbot application that lets you interact with your PDFs using natural language. It uses Retrieval-Augmented Generation (RAG), FAISS vector indexing, and a locally running Large Language Model (Mistral 7B via llama.cpp). Built with LangChain and Streamlit.
 
+
 <p align="center">
-  <img src="ChatMyPDF.png" alt="ChatMyPDF.png" width="700"/>
+  <img src="ChatMyPDF.png" alt="ChatMyPDF.png" width="500"/>
 </p>
 
 
