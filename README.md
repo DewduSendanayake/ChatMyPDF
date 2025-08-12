@@ -42,7 +42,7 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 5. **User Query**: Embed question and retrieve top-k relevant chunks.
 6. **LLM Response**: Feed context + query to Mistral 7B and return answer.
 
----
+
 
 ## ✅ Example Use
 
