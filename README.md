@@ -3,7 +3,7 @@
 ChatMyPDF is a completely free, local-first chatbot application that lets you interact with your PDFs using natural language. It uses Retrieval-Augmented Generation (RAG), FAISS vector indexing, and a locally running Large Language Model (Mistral 7B via llama.cpp). Built with LangChain and Streamlit.
 
 
-<p align="center">
+<p align="left">
   <img src="ChatMyPDF.png" alt="ChatMyPDF.png" width="400"/>
 </p>
 
@@ -18,7 +18,7 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 * 🧐 Mistral 7B Instruct model (GGUF) for response generation
 * 🌍 Streamlit front-end
 
----
+
 
 ## 📚 Tech Stack
 
@@ -31,7 +31,7 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 | LLM            | llama-cpp-python (Mistral 7B) |
 | UI             | Streamlit                     |
 
----
+
 
 ## ♻️ RAG Pipeline Overview
 
@@ -52,7 +52,7 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 * "What technologies were used in this project?"
 * "Who is the target audience?"
 
----
+
 
 ## 🚨 Disclaimers
 
@@ -60,7 +60,7 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 * Needs \~6GB RAM minimum.
 * Tested on Windows 10 + Python 3.11.
 
----
+
 
 ## 💡 Future Ideas
 
