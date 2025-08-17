@@ -69,16 +69,3 @@ ChatMyPDF is a completely free, local-first chatbot application that lets you in
 * Chat history + memory
 * Dockerization
 
----
-
-## 🙏 Acknowledgments
-
-* [LangChain](https://github.com/langchain-ai/langchain)
-* [FAISS](https://github.com/facebookresearch/faiss)
-* [SentenceTransformers](https://www.sbert.net/)
-* [llama.cpp](https://github.com/ggerganov/llama.cpp)
-* [Streamlit](https://streamlit.io)
-
----
-
-Made with ❤️ by \[Your Name]
